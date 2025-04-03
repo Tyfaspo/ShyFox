@@ -1,21 +1,13 @@
 # ShyFox 3.8.1
 
-<div>
- <a href='https://github.com/Naezr/ShyFox/stargazers'><img src='https://img.shields.io/github/stars/Naezr/ShyFox?style=social'></a>
- <a href='https://www.mozilla.org'><img src="https://img.shields.io/badge/Firefox-130-orange?logo=firefox"></a>
- <a href='https://github.com/Naezr/ShyFox/commits'><img src="https://img.shields.io/github/last-commit/Naezr/ShyFox/main">
-</a>
- <a href='https://github.com/Naezr/ShyFox/commits/nightly'><img src="https://img.shields.io/github/last-commit/Naezr/ShyFox/4.0-alpha?label=last%204.0%20commit&color=purple"></a>
-
-</div>
-
-<br>
-
 Not original fixes, but they are working.
 
 <details><summary>🚩 Release notes</summary>
 
 <br/>
+Current commit(idk how to make it correct so i will just dump all fixes):
+- Fixed backdrop url popover or something, when you click on url bar and it displays in the middle with shadow you know.
+- Fixed url nar popover from not popping over
 
 3.8.1:
 - Added mono icons for Auto Tab Discard, Midnight Lizard and Video Download Helper
@@ -417,4 +409,9 @@ If sidebar is open but no Sidebery is there, the sidebar will take a slightly di
 * [Lepton](github.com/black7375/Firefox-UI-Fix) - I gained a lot of knowledge by investigating this project. I also took the icons from there                      
 * [minearchive](https://t.me/kartoshka_vpered) - That's where I got this wallpaper
 
+* [Shimmer userchrome Repo](https://github.com/nuclearcodecat/shimmer) - That's where I steal fixes, go and try their theme instead of this one, I don't plan on expanding it just maintaining it being usable.
+* [minearchive](https://t.me/kartoshka_vpered) - Profile of person's fix I stole to make backdrop for url popup work correcty again, thanks.
+* [minearchive](https://t.me/kartoshka_vpered) - Profile of person's fix I stole to make url popup again, thanks.
+
 Ты думал здесь что-то будет?
+Теперь есть.
