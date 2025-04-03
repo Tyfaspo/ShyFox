@@ -6,47 +6,56 @@ Cool floating search panel
 */
 
 /* about:config setting */
-@media not (-moz-bool-pref: "shyfox.disable.floating.search") { 
-  
-  /* styles for urlbar */
-  #urlbar[breakout-extend]{
+@media not -moz-pref("shyfox.disable.floating.search") {
 
-    #urlbar-input {font-size: 23.5px !important;}
-    #urlbar-input-container, .urlbar-input-container {height: 50px !important;}
-    #urlbar-background {border-radius: var(--bigger-rounding) !important;}
+	/* styles for urlbar */
+	#urlbar[breakout-extend] {
 
-    #urlbar-input-container, .urlbar-input-container {
-      & > :is(box, image){
-        height: 28px !important;
-        margin-block: calc((50px - 28px) / 4) !important;
-      }
-    }
+		#urlbar-input {
+			font-size: 23.5px !important;
+		}
 
-    position: fixed !important;
-    z-index: 999999 !important;
+		#urlbar-input-container,
+		.urlbar-input-container {
+			height: 50px !important;
+		}
 
-    bottom: auto !important;
-    top: 20vh !important;
+		#urlbar-background {
+			border-radius: var(--bigger-rounding) !important;
+		}
 
-    left: 18vw !important;
-    right: 18vw !important;
-    width: 64vw !important;
+		#urlbar-input-container,
+		.urlbar-input-container {
+			&> :is(box, image) {
+				height: 28px !important;
+				margin-block: calc((50px - 28px) / 4) !important;
+			}
+		}
 
-    /* cool translucent background */
-    &:before{
-      content: "";
-      position: fixed;
-      pointer-events: none;
-      border-radius: var(--rounding);
+		position: fixed !important;
+		z-index: 999999 !important;
 
-      width: 100vw;
-      height: 100vh;
+		bottom: auto !important;
+		top: 20vh !important;
 
-      top: 0px;
-      left: 0px;
+		left: 18vw !important;
+		right: 18vw !important;
+		width: 64vw !important;
 
-      background-color: color-mix(in srgb, var(--bg-col) 80%, transparent);
-    }
-  } 
+		/* cool translucent background */
+		&:before {
+			content: "";
+			position: fixed;
+			pointer-events: none;
+			border-radius: var(--rounding);
+
+			width: 100vw;
+			height: 100vh;
+
+			top: 0px;
+			left: 0px;
+
+			background-color: color-mix(in srgb, var(--bg-col) 80%, transparent);
+		}
+	}
 }
-
