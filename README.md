@@ -410,8 +410,8 @@ If sidebar is open but no Sidebery is there, the sidebar will take a slightly di
 * [minearchive](https://t.me/kartoshka_vpered) - That's where I got this wallpaper
 
 * [Shimmer userchrome Repo](https://github.com/nuclearcodecat/shimmer) - That's where I steal fixes, go and try their theme instead of this one, I don't plan on expanding it just maintaining it being usable.
-* [minearchive](https://t.me/kartoshka_vpered) - Profile of person's fix I stole to make backdrop for url popup work correcty again, thanks.
-* [minearchive](https://t.me/kartoshka_vpered) - Profile of person's fix I stole to make url popup again, thanks.
+* [HmonsterG](https://github.com/HmonsterG) - Profile of person's [fix](https://github.com/nuclearcodecat/shimmer/pull/48) I stole to make backdrop for url popup work correcty again, thanks.
+* [kaigll](https://github.com/kaigll) - Profile of person's [fix](https://github.com/nuclearcodecat/shimmer/pull/52) I stole to make url popup again, thanks.
 
 Ты думал здесь что-то будет?
 Теперь есть.
