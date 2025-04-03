@@ -11,10 +11,7 @@
 
 <br>
 
-> [!WARNING]
-> This theme is not maintained right now and can be broken
-
-<br/>
+Not original fixes, but they are working.
 
 <details><summary>🚩 Release notes</summary>
 
